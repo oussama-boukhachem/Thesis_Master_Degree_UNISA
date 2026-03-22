@@ -32,4 +32,4 @@ for commit in commit1_b038730 commit2_feba953 commit3_160dab0; do
     echo ""
 done
 
-echo "✓ Injection complete for all commits"
+echo "✓ Injection complete fore all commits"
