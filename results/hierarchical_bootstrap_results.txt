@@ -1,0 +1,353 @@
+Commit: commit1_b038730
+================================================================================
+
+--- HANDWRITTEN BENCHMARKS ---
+
+
+  Benchmark: JmhCacheBenchmark_get.json
+    Point estimate (ratio): 57.356009
+    Performance change: 5635.60% ± 322.35% SLOWER
+    95% CI for ratio: [54.458403, 60.579534]
+    95% CI (percentage): [5345.84%, 5957.95%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9994
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhCacheBenchmark_put.json
+    Point estimate (ratio): 33.575599
+    Performance change: 3257.56% ± 132.52% SLOWER
+    95% CI for ratio: [32.270104, 34.900780]
+    95% CI (percentage): [3127.01%, 3390.08%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9994
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+--- AI-GENERATED BENCHMARKS ---
+
+
+  Benchmark: JmhCacheBenchmarkAI_get.json
+    Point estimate (ratio): 62.267644
+    Performance change: 6126.76% ± 324.63% SLOWER
+    95% CI for ratio: [59.051339, 65.513980]
+    95% CI (percentage): [5805.13%, 6451.40%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9995
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhCacheBenchmarkAI_put.json
+    Point estimate (ratio): 35.277129
+    Performance change: 3427.71% ± 166.29% SLOWER
+    95% CI for ratio: [33.614227, 36.819437]
+    95% CI (percentage): [3261.42%, 3581.94%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9993
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+================================================================================
+Commit commit1_b038730 Summary:
+  Handwritten Benchmarks:
+    Total: 2
+    Significant differences: 2 (100.0%)
+      - Regressions detected: 2
+      - Improvements detected: 0
+  AI-Generated Benchmarks:
+    Total: 2
+    Significant differences: 2 (100.0%)
+      - Regressions detected: 2
+      - Improvements detected: 0
+
+Commit: commit2_feba953
+================================================================================
+
+--- HANDWRITTEN BENCHMARKS ---
+
+
+  Benchmark: JmhCacheBenchmark_get.json
+    Point estimate (ratio): 39.262793
+    Performance change: 3826.28% ± 290.29% SLOWER
+    95% CI for ratio: [36.484388, 42.165719]
+    95% CI (percentage): [3548.44%, 4116.57%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9994
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhCacheBenchmark_put.json
+    Point estimate (ratio): 22.790363
+    Performance change: 2179.04% ± 147.46% SLOWER
+    95% CI for ratio: [21.515349, 24.264981]
+    95% CI (percentage): [2051.53%, 2326.50%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9989
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmark_completeFutureGet.json
+    Point estimate (ratio): 38.881836
+    Performance change: 3788.18% ± 357.77% SLOWER
+    95% CI for ratio: [35.545577, 42.459559]
+    95% CI (percentage): [3454.56%, 4145.96%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9991
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmark_testSimpleGet.json
+    Point estimate (ratio): 900.615343
+    Performance change: 89961.53% ± 18404.53% SLOWER
+    95% CI for ratio: [758.259932, 1084.660645]
+    95% CI (percentage): [75725.99%, 108366.06%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9999
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmark_testSimpleGetWithListener.json
+    Point estimate (ratio): 619.870439
+    Performance change: 61887.04% ± 11915.23% SLOWER
+    95% CI for ratio: [520.061290, 739.022704]
+    95% CI (percentage): [51906.13%, 73802.27%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9997
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhIncrementBenchmark_increment.json
+    Point estimate (ratio): 4413.164932
+    Performance change: 441216.49% ± 20703.07% SLOWER
+    95% CI for ratio: [4206.134193, 4616.315686]
+    95% CI (percentage): [420513.42%, 461531.57%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 1.0000
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhIncrementBenchmark_threadLocalIncrement.json
+    Point estimate (ratio): 1499.340550
+    Performance change: 149834.05% ± 72112.08% SLOWER
+    95% CI for ratio: [778.219721, 2121.215877]
+    95% CI (percentage): [77721.97%, 212021.59%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 1.0000
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+--- AI-GENERATED BENCHMARKS ---
+
+
+  Benchmark: JmhCacheBenchmarkAI_get.json
+    Point estimate (ratio): 41.413944
+    Performance change: 4041.39% ± 209.38% SLOWER
+    95% CI for ratio: [39.320130, 43.478032]
+    95% CI (percentage): [3832.01%, 4247.80%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9995
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhCacheBenchmarkAI_put.json
+    Point estimate (ratio): 25.194740
+    Performance change: 2419.47% ± 153.77% SLOWER
+    95% CI for ratio: [23.729265, 26.732425]
+    95% CI (percentage): [2272.93%, 2573.24%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9994
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmarkAI_completeFutureGet.json
+    Point estimate (ratio): 35.248483
+    Performance change: 3424.85% ± 330.13% SLOWER
+    95% CI for ratio: [31.966969, 38.549745]
+    95% CI (percentage): [3096.70%, 3754.97%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9991
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmarkAI_testSimpleGet.json
+    Point estimate (ratio): 838.969969
+    Performance change: 83797.00% ± 19733.94% SLOWER
+    95% CI for ratio: [687.306757, 1036.309405]
+    95% CI (percentage): [68630.68%, 103530.94%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9998
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmarkAI_testSimpleGetWithListener.json
+    Point estimate (ratio): 635.002201
+    Performance change: 63400.22% ± 11707.17% SLOWER
+    95% CI for ratio: [538.921730, 752.073859]
+    95% CI (percentage): [53792.17%, 75107.39%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9998
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhIncrementBenchmarkAI_increment.json
+    Point estimate (ratio): 3852.738448
+    Performance change: 385173.84% ± 90344.64% SLOWER
+    95% CI for ratio: [2949.291998, 4430.126040]
+    95% CI (percentage): [294829.20%, 442912.60%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 1.0000
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhIncrementBenchmarkAI_threadLocalIncrement.json
+    Point estimate (ratio): 1982.234002
+    Performance change: 198123.40% ± 15189.84% SLOWER
+    95% CI for ratio: [1830.335650, 2125.870684]
+    95% CI (percentage): [182933.56%, 212487.07%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 1.0000
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+================================================================================
+Commit commit2_feba953 Summary:
+  Handwritten Benchmarks:
+    Total: 7
+    Significant differences: 7 (100.0%)
+      - Regressions detected: 7
+      - Improvements detected: 0
+  AI-Generated Benchmarks:
+    Total: 7
+    Significant differences: 7 (100.0%)
+      - Regressions detected: 7
+      - Improvements detected: 0
+
+Commit: commit3_160dab0
+================================================================================
+
+--- HANDWRITTEN BENCHMARKS ---
+
+
+  Benchmark: JmhCacheBenchmark_get.json
+    Point estimate (ratio): 45.295380
+    Performance change: 4429.54% ± 316.09% SLOWER
+    95% CI for ratio: [42.457987, 48.456240]
+    95% CI (percentage): [4145.80%, 4745.62%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9994
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhCacheBenchmark_put.json
+    Point estimate (ratio): 24.919316
+    Performance change: 2391.93% ± 176.83% SLOWER
+    95% CI for ratio: [23.297684, 26.687661]
+    95% CI (percentage): [2229.77%, 2568.77%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9994
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmark_completeFutureGet.json
+    Point estimate (ratio): 36.681242
+    Performance change: 3568.12% ± 379.42% SLOWER
+    95% CI for ratio: [33.038342, 40.475479]
+    95% CI (percentage): [3203.83%, 3947.55%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9992
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmark_testSimpleGet.json
+    Point estimate (ratio): 829.568567
+    Performance change: 82856.86% ± 22139.30% SLOWER
+    95% CI for ratio: [663.919482, 1050.961583]
+    95% CI (percentage): [66291.95%, 104996.16%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9997
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmark_testSimpleGetWithListener.json
+    Point estimate (ratio): 615.168372
+    Performance change: 61416.84% ± 13327.56% SLOWER
+    95% CI for ratio: [493.721583, 748.443961]
+    95% CI (percentage): [49272.16%, 74744.40%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9997
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhIncrementBenchmark_increment.json
+    Point estimate (ratio): 3765.622465
+    Performance change: 376462.25% ± 69584.56% SLOWER
+    95% CI for ratio: [3069.776911, 4348.732141]
+    95% CI (percentage): [306877.69%, 434773.21%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 1.0000
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhIncrementBenchmark_threadLocalIncrement.json
+    Point estimate (ratio): 2016.104356
+    Performance change: 201510.44% ± 19173.71% SLOWER
+    95% CI for ratio: [1827.907553, 2207.841407]
+    95% CI (percentage): [182690.76%, 220684.14%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 1.0000
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+--- AI-GENERATED BENCHMARKS ---
+
+
+  Benchmark: JmhCacheBenchmarkAI_get.json
+    Point estimate (ratio): 47.056769
+    Performance change: 4605.68% ± 357.63% SLOWER
+    95% CI for ratio: [43.873225, 50.633051]
+    95% CI (percentage): [4287.32%, 4963.31%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9995
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhCacheBenchmarkAI_put.json
+    Point estimate (ratio): 25.211386
+    Performance change: 2421.14% ± 246.64% SLOWER
+    95% CI for ratio: [22.971127, 27.677828]
+    95% CI (percentage): [2197.11%, 2667.78%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9989
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmarkAI_completeFutureGet.json
+    Point estimate (ratio): 35.053473
+    Performance change: 3405.35% ± 516.65% SLOWER
+    95% CI for ratio: [29.981378, 40.220000]
+    95% CI (percentage): [2898.14%, 3922.00%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9990
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmarkAI_testSimpleGet.json
+    Point estimate (ratio): 806.701814
+    Performance change: 80570.18% ± 23212.84% SLOWER
+    95% CI for ratio: [642.334801, 1038.830192]
+    95% CI (percentage): [64133.48%, 103783.02%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9997
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhFutureAdapterBenchmarkAI_testSimpleGetWithListener.json
+    Point estimate (ratio): 699.379370
+    Performance change: 69837.94% ± 15503.58% SLOWER
+    95% CI for ratio: [574.274697, 854.415154]
+    95% CI (percentage): [57327.47%, 85341.52%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 0.9997
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhIncrementBenchmarkAI_increment.json
+    Point estimate (ratio): 3844.298814
+    Performance change: 384329.88% ± 82493.13% SLOWER
+    95% CI for ratio: [3019.367506, 4461.353894]
+    95% CI (percentage): [301836.75%, 446035.39%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 1.0000
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+  Benchmark: JmhIncrementBenchmarkAI_threadLocalIncrement.json
+    Point estimate (ratio): 1704.501985
+    Performance change: 170350.20% ± 50561.00% SLOWER
+    95% CI for ratio: [1198.892030, 2175.120108]
+    95% CI (percentage): [119789.20%, 217412.01%]
+    P(ratio > 1): 1.0000
+    Vargha-Delaney A12 (Regression > No-Regression): 1.0000
+    >>> SIGNIFICANT REGRESSION DETECTED (slower)
+
+================================================================================
+Commit commit3_160dab0 Summary:
+  Handwritten Benchmarks:
+    Total: 7
+    Significant differences: 7 (100.0%)
+      - Regressions detected: 7
+      - Improvements detected: 0
+  AI-Generated Benchmarks:
+    Total: 7
+    Significant differences: 7 (100.0%)
+      - Regressions detected: 7
+      - Improvements detected: 0
